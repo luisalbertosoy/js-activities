@@ -1,14 +1,14 @@
-let userName = prompt('Hello!, please enter a username');
-let birthdayYear = prompt('Enter your birthday year to verify your age');
+let userName = prompt('Hola!, un nombre de usuario por favor.');
+let birthdayYear = prompt('Ingresa tu año de nacimiento para verificar tu edad');
 
 let age = 2024 - birthdayYear;
 
 
 if (age >= 18) {
-    alert('Welcome ' + userName + ' your age is ' + age + ', you have the age to enter the JavaScript Club.');
+    alert('Bienvenido, ' + userName + ' tu edad es ' + age + ', tienes la edad para ingresar a the JavaScript Club.');
 }
 else {
-    alert('We are sorry ' + userName + ' your age is ' + age + ', you do not have the age to enter the JavaScript Club.');
+    alert('Lo sentimos, ' + userName + ' tu edad es ' + age + ', no tienes la edad para ingresar a the JavaScript Club.');
 };
 
 console.log('Development branch created');
