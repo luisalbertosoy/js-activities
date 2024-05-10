@@ -7,7 +7,11 @@ module.exports = {
     "./index.html",
   ],
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        'cstmh': 'calc(100vh - 4rem)',
+      }
+    },
   },
   plugins: [],
 }
