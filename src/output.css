@@ -562,14 +562,6 @@ video {
   height: 4rem;
 }
 
-.h-dvh {
-  height: 100dvh;
-}
-
-.h-\[calc\(100vh-4rem\)\] {
-  height: calc(100vh - 4rem);
-}
-
 .h-\[calc\(100dvh-4rem\)\] {
   height: calc(100dvh - 4rem);
 }
