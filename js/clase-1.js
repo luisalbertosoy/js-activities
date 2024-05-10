@@ -5,10 +5,10 @@ let age = 2024 - birthdayYear;
 
 
 if (age >= 18) {
-    alert('Bienvenido, ' + userName + ' tu edad es ' + age + ', tienes la edad para ingresar a the JavaScript Club.');
+    alert('Bienvenido ' + userName + ' tu edad es ' + age + ', tienes la edad para ingresar a the JavaScript Club.');
 }
 else {
-    alert('Lo sentimos, ' + userName + ' tu edad es ' + age + ', no tienes la edad para ingresar a the JavaScript Club.');
+    alert('Lo sentimos ' + userName + ' tu edad es ' + age + ', no tienes la edad para ingresar a the JavaScript Club.');
 };
 
 console.log('Development branch created');
